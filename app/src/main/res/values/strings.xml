@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ETMSellerApk</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string-array name="Subcategory_list">
+        <item>Desktops</item>
+        <item>Laptops</item>
+        <item>Monitors</item>
+        <item>Printers</item>
+        <item>Storage Devices</item>
+        <item>Keyboards and Mice</item>
+        <item>Headphones and Speakers</item>
+        <item>Cables and Adapters</item>
+        <item>Graphics Cards</item>
+        <item>Routers and Networking Devices</item>
+        <item>gram</item>
+        <item>kilogram</item>
+        <item>gram</item>
+        <item>kilogram</item>
+        <item>gram</item>
+
+    </string-array>
+
+</resources>

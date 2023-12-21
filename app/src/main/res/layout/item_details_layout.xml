@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><!--<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">-->
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ItemViewLayout"
+    android:layout_width="match_parent"
+    android:padding="10sp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0dp">
+
+    <RelativeLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/itemImage"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/itemName"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@+id/itemImage"
+            android:gravity="center|center_horizontal"
+            android:hint="Biriyani"
+            android:textColor="@color/black" />
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/item_qty"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/itemImage"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="marquee"
+            android:hint="20*20"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true" />
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/itemTotal"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/itemImage"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:hint="100"
+
+            />
+    </RelativeLayout>
+</RelativeLayout>
